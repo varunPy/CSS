@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positionProperty</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    .box{
+        background-color: aqua;
+        height: 50px;
+        width: 70px;
+        margin: 5px;
+        text-align: center;
+
+    }
+    #bx{
+        position: static;
+    }
+    #bx1{
+        position: relative;
+        top: 10px;
+        left: 90px;
+    }
+    #bx2{
+        position: absolute;
+        top: 40px;
+        
+    }
+    #bx3{
+        position: fixed;
+        left: 60px;
+    }
+ 
+   </style>
+</head>
+<body>
+    <div id="bx" class="box">box1 static</div>
+    <div id="bx1" class="box">box2 relative</div>
+    <div id="bx2" class="box">box3 Absolute</div>
+    <div id="bx3" class="box">box4 fixed</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+</body>
+</html>
